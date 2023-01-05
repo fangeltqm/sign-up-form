@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    flex: 1;
+    background-image: url(images/holden-baxter-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.company-logo {
+    width: 200px;
+}
+
+.company-name {
+    
+}
+
+.main {
+    flex: 2;
+}
