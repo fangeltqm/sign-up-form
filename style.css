@@ -78,6 +78,7 @@ button {
     border: none;
     background-color: #73573F;
     color: white;
+    box-shadow: 2px 2px 4px rgb(115, 87, 63, 0.4);
 }
 
 .submit > p {
