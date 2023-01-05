@@ -13,7 +13,7 @@ body {
     flex: 1;
     background-image: url(images/holden-baxter-unsplash.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-position: center;
     text-align: center;
     position: relative;
@@ -40,35 +40,53 @@ body {
     flex: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
 }
 
 .intro, .submit {
     background-color: rgb(115, 87, 63, 0.1);
     flex: 1;
+
 }
 
-.main > div {
-    padding: 32px 100px 32px 32px;
-}
 .intro {
    font-size: large;
-
+   padding: 32px;
+   padding-right: 30%;
+   
 }
 
 .form {
-    min-width: 30%;
+    padding: 20px 32px;
+    max-height: 40%;
+    flex: 1;
     box-shadow: 0px 8px 8px rgb(115, 87, 63, 0.3);
+    padding-right: 30%;
 
+}
+
+.form-title {
+    font-size: large;
+    padding-bottom: 10px;
 }
 
 ul {
     list-style-type: none;
     font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+}
+
+input {
+    width: 200px;
     
 }
 
-
+label {
+    display:block;
+}
 
 
 
@@ -80,6 +98,10 @@ button {
     background-color: #73573F;
     color: white;
     box-shadow: 2px 2px 4px rgb(115, 87, 63, 0.4);
+}
+
+.submit {
+    padding: 32px;
 }
 
 .submit > p {
